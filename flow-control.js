@@ -28,7 +28,10 @@ return age >= 13 && age <= 19 ? "You are a teenager": "You are not a teenager"
 }
 
 switch switchAge (age) {
-  case age = 13 || age = 14 || age = 15 || age = 16 || age = 17 || age = 18 || age = 19:
+  case age = 13:
+  "You are a teenager"
+  break;
+  case age = 14:
   "You are a teenager"
   break;
   default: "You have an age"
