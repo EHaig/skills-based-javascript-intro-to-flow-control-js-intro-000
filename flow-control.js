@@ -50,5 +50,4 @@ switch switchAge {
   "You are a teenager"
   break;
   default: "You have an age"
-  break;
 }
