@@ -40,6 +40,12 @@ switch switchAge (age) {
   case age = 16:
   "You are a teenager"
   break;
+  case age = 17:
+  "You are a teenager"
+  break;
+  case age = 14:
+  "You are a teenager"
+  break;
   default: "You have an age"
   break;
 }
